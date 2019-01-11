@@ -1,0 +1,6 @@
+framework module Pods_YouDaoTranslateDemo {
+  umbrella header "Pods-YouDaoTranslateDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

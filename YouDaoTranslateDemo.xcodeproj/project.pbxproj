@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D01EFC4821E59D4D00B46957 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC4721E59D4D00B46957 /* AppDelegate.m */; };
+		D01EFC4B21E59D4D00B46957 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC4A21E59D4D00B46957 /* ViewController.m */; };
+		D01EFC4E21E59D4D00B46957 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EFC4C21E59D4D00B46957 /* Main.storyboard */; };
+		D01EFC5021E59D4F00B46957 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01EFC4F21E59D4F00B46957 /* Assets.xcassets */; };
+		D01EFC5321E59D4F00B46957 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01EFC5121E59D4F00B46957 /* LaunchScreen.storyboard */; };
+		D01EFC5621E59D4F00B46957 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D01EFC5521E59D4F00B46957 /* main.m */; };
+		E037FB8660EDC623CB851FE6 /* Pods_YouDaoTranslateDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FCA7A5A5A685A3BE3F756EAE /* Pods_YouDaoTranslateDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C205A25A9BD638E7E5E8A121 /* Pods-YouDaoTranslateDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouDaoTranslateDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YouDaoTranslateDemo/Pods-YouDaoTranslateDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		C96E289CE36BB2DED169EE93 /* Pods-YouDaoTranslateDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YouDaoTranslateDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YouDaoTranslateDemo/Pods-YouDaoTranslateDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D01EFC4321E59D4D00B46957 /* YouDaoTranslateDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YouDaoTranslateDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D01EFC4621E59D4D00B46957 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D01EFC4721E59D4D00B46957 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D01EFC4921E59D4D00B46957 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D01EFC4A21E59D4D00B46957 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D01EFC4D21E59D4D00B46957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D01EFC4F21E59D4F00B46957 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D01EFC5221E59D4F00B46957 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D01EFC5421E59D4F00B46957 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01EFC5521E59D4F00B46957 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FCA7A5A5A685A3BE3F756EAE /* Pods_YouDaoTranslateDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YouDaoTranslateDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D01EFC4021E59D4D00B46957 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E037FB8660EDC623CB851FE6 /* Pods_YouDaoTranslateDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5057CFE2C8F810D82C59CEB6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCA7A5A5A685A3BE3F756EAE /* Pods_YouDaoTranslateDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6A56C563DB908E878F2DACD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C205A25A9BD638E7E5E8A121 /* Pods-YouDaoTranslateDemo.debug.xcconfig */,
+				C96E289CE36BB2DED169EE93 /* Pods-YouDaoTranslateDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D01EFC3A21E59D4D00B46957 = {
+			isa = PBXGroup;
+			children = (
+				D01EFC4521E59D4D00B46957 /* YouDaoTranslateDemo */,
+				D01EFC4421E59D4D00B46957 /* Products */,
+				6A56C563DB908E878F2DACD2 /* Pods */,
+				5057CFE2C8F810D82C59CEB6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D01EFC4421E59D4D00B46957 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC4321E59D4D00B46957 /* YouDaoTranslateDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D01EFC4521E59D4D00B46957 /* YouDaoTranslateDemo */ = {
+			isa = PBXGroup;
+			children = (
+				D01EFC4621E59D4D00B46957 /* AppDelegate.h */,
+				D01EFC4721E59D4D00B46957 /* AppDelegate.m */,
+				D01EFC4921E59D4D00B46957 /* ViewController.h */,
+				D01EFC4A21E59D4D00B46957 /* ViewController.m */,
+				D01EFC4C21E59D4D00B46957 /* Main.storyboard */,
+				D01EFC4F21E59D4F00B46957 /* Assets.xcassets */,
+				D01EFC5121E59D4F00B46957 /* LaunchScreen.storyboard */,
+				D01EFC5421E59D4F00B46957 /* Info.plist */,
+				D01EFC5521E59D4F00B46957 /* main.m */,
+			);
+			path = YouDaoTranslateDemo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D01EFC4221E59D4D00B46957 /* YouDaoTranslateDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D01EFC5921E59D4F00B46957 /* Build configuration list for PBXNativeTarget "YouDaoTranslateDemo" */;
+			buildPhases = (
+				4315A8F128D2BC05D6FA961C /* [CP] Check Pods Manifest.lock */,
+				D01EFC3F21E59D4D00B46957 /* Sources */,
+				D01EFC4021E59D4D00B46957 /* Frameworks */,
+				D01EFC4121E59D4D00B46957 /* Resources */,
+				0239B76FBE060A6A1ECD6187 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YouDaoTranslateDemo;
+			productName = YouDaoTranslateDemo;
+			productReference = D01EFC4321E59D4D00B46957 /* YouDaoTranslateDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D01EFC3B21E59D4D00B46957 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "ma qianli";
+				TargetAttributes = {
+					D01EFC4221E59D4D00B46957 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D01EFC3E21E59D4D00B46957 /* Build configuration list for PBXProject "YouDaoTranslateDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D01EFC3A21E59D4D00B46957;
+			productRefGroup = D01EFC4421E59D4D00B46957 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D01EFC4221E59D4D00B46957 /* YouDaoTranslateDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D01EFC4121E59D4D00B46957 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01EFC5321E59D4F00B46957 /* LaunchScreen.storyboard in Resources */,
+				D01EFC5021E59D4F00B46957 /* Assets.xcassets in Resources */,
+				D01EFC4E21E59D4D00B46957 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0239B76FBE060A6A1ECD6187 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YouDaoTranslateDemo/Pods-YouDaoTranslateDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+				"${BUILT_PRODUCTS_DIR}/YYText/YYText.framework",
+				"${BUILT_PRODUCTS_DIR}/hpple/hpple.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYText.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/hpple.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YouDaoTranslateDemo/Pods-YouDaoTranslateDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4315A8F128D2BC05D6FA961C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YouDaoTranslateDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D01EFC3F21E59D4D00B46957 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D01EFC4B21E59D4D00B46957 /* ViewController.m in Sources */,
+				D01EFC5621E59D4F00B46957 /* main.m in Sources */,
+				D01EFC4821E59D4D00B46957 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D01EFC4C21E59D4D00B46957 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01EFC4D21E59D4D00B46957 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D01EFC5121E59D4F00B46957 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D01EFC5221E59D4F00B46957 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D01EFC5721E59D4F00B46957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D01EFC5821E59D4F00B46957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D01EFC5A21E59D4F00B46957 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C205A25A9BD638E7E5E8A121 /* Pods-YouDaoTranslateDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouDaoTranslateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianli.YouDaoTranslateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D01EFC5B21E59D4F00B46957 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C96E289CE36BB2DED169EE93 /* Pods-YouDaoTranslateDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = YouDaoTranslateDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.qianli.YouDaoTranslateDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D01EFC3E21E59D4D00B46957 /* Build configuration list for PBXProject "YouDaoTranslateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01EFC5721E59D4F00B46957 /* Debug */,
+				D01EFC5821E59D4F00B46957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D01EFC5921E59D4F00B46957 /* Build configuration list for PBXNativeTarget "YouDaoTranslateDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D01EFC5A21E59D4F00B46957 /* Debug */,
+				D01EFC5B21E59D4F00B46957 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D01EFC3B21E59D4D00B46957 /* Project object */;
+}
