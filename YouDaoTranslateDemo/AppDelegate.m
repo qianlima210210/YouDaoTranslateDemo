@@ -4,7 +4,11 @@
 //
 //  Created by ma qianli on 2019/1/9.
 //  Copyright © 2019 ma qianli. All rights reserved.
+<<<<<<< HEAD
 //2
+=======
+//
+>>>>>>> Revert "1"
 
 #import "AppDelegate.h"
 
