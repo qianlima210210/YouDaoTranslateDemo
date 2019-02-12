@@ -5,12 +5,17 @@
 //  Created by ma qianli on 2019/1/9.
 //  Copyright © 2019 ma qianli. All rights reserved.
 //
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1ccc54b7ffc9bf9e10a1321431f1c44ab30bd3f2
 
 #import "AppDelegate.h"
 
 @interface AppDelegate ()
 
 @end
+
 
 @implementation AppDelegate
 
